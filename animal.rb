@@ -5,8 +5,7 @@ class Animal
         self.age = age 
     end 
     
-    def say(name, age) 
-        puts name + "です。" + age + 歳です。
+    def say
+        puts name + "です。" + age.to_s + "歳です。"
     end 
-    
 end 
